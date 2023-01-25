@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/home"/>
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_account_box_24" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SKINCARE"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/produk1"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/rekgambar1"/>
+
+        <ImageButton
+            android:id="@+id/produk2"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/rekgambar2"/>
+
+        <ImageButton
+            android:id="@+id/produk3"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/rekgambar3"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skintific"
+                android:textSize="10dp"
+                android:layout_marginStart="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emina"
+                android:textSize="10dp"
+                android:layout_marginStart="105dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ms. Glow"
+                android:textSize="10dp"
+                android:layout_marginStart="95dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 178.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 50.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="85dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 150.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="70dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="30dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="PARFUM"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/produk4"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rekgambar4"/>
+
+            <ImageButton
+                android:id="@+id/produk5"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:background="@drawable/rekgambar5"/>
+
+            <ImageButton
+                android:id="@+id/produk6"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/rekgambar6"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giordani"
+                android:textSize="10dp"
+                android:layout_marginStart="47dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miss Dior"
+                android:textSize="10dp"
+                android:layout_marginStart="105dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Victoria"
+                android:textSize="10dp"
+                android:layout_marginStart="95dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 239.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 300.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="78dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 245.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="65dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="30dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MAKEUP"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/produk7"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rekgambar7"/>
+
+            <ImageButton
+                android:id="@+id/produk8"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="60dp"
+                android:background="@drawable/rekgambar8"/>
+
+            <ImageButton
+                android:id="@+id/produk9"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/rekgambar9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BNB"
+                android:textSize="10dp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lameila"
+                android:textSize="10dp"
+                android:layout_marginStart="115dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laura"
+                android:textSize="10dp"
+                android:layout_marginStart="100dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 79.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="45dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 20.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="85dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 491.000"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginStart="70dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

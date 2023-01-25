@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328391012336",
+    "project_id": "aplikasi-kosmetik",
+    "storage_bucket": "aplikasi-kosmetik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328391012336:android:53558d0b07038da5a8f735",
+        "android_client_info": {
+          "package_name": "com.example.kosmetikcenternurul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328391012336-pptqjbjtjdg98j953f94svssfquaod3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXjoQuwFaJ_vilp-dObxx5oNo-G3GzhQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328391012336-pptqjbjtjdg98j953f94svssfquaod3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
